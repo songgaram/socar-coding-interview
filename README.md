@@ -6,7 +6,7 @@ npm i
 npm start
 
 server
-npm install --save typescript @types/node @types/react @types/react-dom @types/jest
+json-server db.json --routes routes.json --port 8080
 ```
 **route path는 `/list`입니다.**
 
